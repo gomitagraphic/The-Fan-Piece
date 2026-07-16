@@ -1,36 +1,36 @@
-@font-face {
+@ font-face {
     font-family: 'Chunky Playful';
-    src: url('/FONT/Chunky Playful.otf') format('opentype');
+    src: url('fonts/Chunky-Playful.otf') format ('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-background: linear-gradient(to bottom, #E5412D, #F39331, #FECD55, #48A2C6, #203360, #1E3C70, #785AA2, #CB9BC2);
-  min-height: 100vh;
+background: linear-gradient (tobottom, #E5412D, #F39331, #FECD55, #48A2C6, #203360, #1E3C70, #785AA2, #CB9BC2);
+  min-height: 100 vh;
   margin: 0;
-  font-family: 'Chunky Playful', sans-serif;
+  font-family: 'Chunky-Playful', sans-serif;
 }
 
 body > *:not(:last-child) {
     box-sizing:border-box;
-    margin: 15px 25px 75px;
+    margin: 15 px 25 px 75 px;
 }
 
 .nav-list {
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto 1 fr auto;
   align-items: center;
-  width: 100%;
+  width: 100 %;
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 24px;
-  gap: 1rem;
+  font-size: 24 px;
+  gap: 1 rem;
 }
 
 ul.nav-list li.nav-brand a img {
-  height: 120px;
+  height: 120 px;
   width: auto;
 }
 .nav-action,
@@ -54,7 +54,7 @@ ul.nav-list li.nav-brand a img {
 .nav-links {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 1 rem;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -70,9 +70,9 @@ ul.nav-list li.nav-brand a img {
 .nav-brand a {
   text-decoration: none;
   color: inherit;
-  padding: 0.5rem 0.75rem;
+  padding: 0.5 rem 0.75 rem;
   display: inline-block;
-  transition: color 0.2s ease;
+  transition: color 0.2 s ease;
 }
 
 .nav-links a:hover,
@@ -85,16 +85,16 @@ ul.nav-list li.nav-brand a img {
 }
 
 .main-title {
-    font-size: 35px;
+    font-size: 35 px;
     margin: center;
 }   
 .brand-title {
-    font-size: 45px;
+    font-size: 45 px;
     margin: center;
     color: #ffffff;
 }
 .nav-brand img {
-  width: 100px;
+  width: 100 px;
   height: auto;
   aspect-ratio: 4 / 3;
   object-fit: fill;
@@ -102,14 +102,14 @@ ul.nav-list li.nav-brand a img {
 
 .hero-container {
     position: relative;
-    width: 100%;
-    min-height: 400px;
-    margin-bottom: 50px;
+    width: 100 %;
+    min-height: 400 px;
+    margin-bottom: 50 px;
 }
 
 .hero {
     background-color: #000000;
-    border-radius: 25px;
+    border-radius: 25 px;
     color: #fff; 
 }
 
@@ -118,8 +118,8 @@ ul.nav-list li.nav-brand a img {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 4rem 2rem;
-    min-height: 350px;
+    padding: 4 rem 2 rem;
+    min-height: 350 px;
     position: relative;
     z-index: 1; 
     overflow: visible; 
@@ -127,9 +127,9 @@ ul.nav-list li.nav-brand a img {
 
 .hero-character-left {
     position: absolute;
-    left: -20px; 
-    top: -30px;  
-    height: 120%;
+    left: -20 px; 
+    top: -30 px;  
+    height: 120 %;
     width: auto;
     z-index: 2;
     object-fit: contain;
@@ -138,9 +138,9 @@ ul.nav-list li.nav-brand a img {
 
 .hero-character-right {
     position: absolute;
-    right: -20px; 
-    top: -30px;
-    height: 120%;
+    right: -20 px; 
+    top: -30 px;
+    height: 120 %;
     width: auto;
     z-index: 2; 
     object-fit: contain;
@@ -148,7 +148,7 @@ ul.nav-list li.nav-brand a img {
 }
 
 .hero-content {
-    max-width: 40%;
+    max-width: 40 %;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -157,42 +157,42 @@ ul.nav-list li.nav-brand a img {
 
 .btn-primary {
     display: inline-block;
-    padding: 0.25rem 1.5rem;
+    padding: 0.25 rem 1.5 rem;
     background-color: #E5412D;
     color: #fff;
     text-decoration: none;
-    border-radius: 100px;
-    font-size: 1rem;
-    margin-top: 1rem;
+    border-radius: 100 px;
+    font-size: 1 rem;
+    margin-top: 1 rem;
     font-family: 'montserrat', italic;
 } 
 
 .btn-second {
     display: inline-block;
-    padding: 0.17rem 0.75rem;
+    padding: 0.17 rem 0.75 rem;
     background-color: #fff;
     color: #000;
     text-decoration: none;
-    border-radius: 100px;
-    font-size: 0.5rem;
-    margin-top: 1rem;
+    border-radius: 100 px;
+    font-size: 0.5 rem;
+    margin-top: 1 rem;
 }
 
 .sub-hero {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
-    padding: 2rem 1rem;
+    grid-template-columns: repeat (auto-fit, minmax (200 px, 1 fr));
+    gap: 2 rem;
+    padding: 2 rem 1 rem;
     font-family: 'montserrat', italic;
     
 }
 
 .sub-hero div {
     background-color: #ffffff;
-    border-radius: 50px;
-    padding: 10px 25px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 300px;
+    border-radius: 50 px;
+    padding: 10 px 25 px;
+    box-shadow: 0 4 px 10 px rgba (0, 0, 0, 0.1);
+    max-width: 300 px;
     margin: 0 auto;
     text-align: center;
     justify-content: center;
@@ -200,22 +200,22 @@ ul.nav-list li.nav-brand a img {
 }
 .seasons, .hero, .news, .characters, .fanarts, .blog {
     background-color: #000000;
-    border-radius: 25px;
+    border-radius: 25 px;
     color: #fff; 
 
 }
 
 .section-title {
-    font-family: 'chunky playful', sans-serif;
-    font-size: 55px;
+    font-family: 'chunky-playful', sans-serif;
+    font-size: 55 px;
     color: #ffffff;
-    margin: 5px 0;
+    margin: 5 px 0;
     text-align: center;
 }
 
 .seasons, .characters > div {
-    margin-left: 25px; 
-    margin-right: 25px;
+    margin-left: 25 px; 
+    margin-right: 25 px;
 }
 .season-selector-wrapper {
     display: flex;
@@ -224,119 +224,119 @@ ul.nav-list li.nav-brand a img {
 }
 
 .season-selector {
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    font-size: 25px;
-    border-radius: 5px;
+    margin-top: 1 rem;
+    padding: 0.5 rem 1 rem;
+    font-size: 25 px;
+    border-radius: 5 px;
     border: none; 
     background-color: #000;
     color: #fff;
-    font-family: "chunky playful", sans-serif;
+    font-family: "chunky-playful", sans-serif;
 }
 
 .item .episode-number {
   font-family: 'montserrat', italic;
-  font-size: 14px;
-  color: rgb(255, 255, 255);
-  margin-bottom: 20px;
+  font-size: 14 px;
+  color: rgb (255, 255, 255);
+  margin-bottom: 20 px;
 }
 
 .gallery {
     display: flex;
     justify-content: center;
-    gap: 2rem;
-    padding: 2rem 1rem;
+    gap: 2 rem;
+    padding: 2 rem 1 rem;
     background-color: #000;
-    border-radius: 25px;
+    border-radius: 25 px;
 }
 
 .gallery > div h3 {
-  font-family: 'chunky playful', sans-serif;
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 20px;
+  font-family: 'chunky-playful', sans-serif;
+  font-size: 14 px;
+  color: rgba (255, 255, 255, 0.8);
+  margin-bottom: 20 px;
 } 
 
 
 .gallery > div {
-    width: 290px;
-  border-radius: 35px;
+    width: 290 px;
+  border-radius: 35 px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 25 px;
 }
 .gallery > div:nth-child(1) { background-color: #E88C30; }
 .gallery > div:nth-child(2) { background-color: #4A9EC5; }
 .gallery > div:nth-child(3) { background-color: #79579B; }
 
 .gallery > div h2 {
-  font-family: 'chunky playful', sans-serif;
-  font-size: 24px;
+  font-family: 'chunky-playful', sans-serif;
+  font-size: 24 px;
   color: #ffffff;
-  margin: 5px 0;
+  margin: 5 px 0;
 }
 
 .btn-second h2 {
-  font-family: 'chunky playful', sans-serif;
-  font-size: 24px;
+  font-family: 'chunky-playful', sans-serif;
+  font-size: 24 px;
   color: #ffffff;
-  margin: 5px 0;
+  margin: 5 px 0;
 }
 
 .gallery > div .btn-second {
   background-color: #ffffff;
   color: #000;
   font-family: Arial, sans-serif;
-  font-size: 12px;
+  font-size: 12 px;
   font-weight: bold;
   text-transform: uppercase;
   border: none;
-  padding: 8px 30px;
-  border-radius: 20px;
+  padding: 8 px 30 px;
+  border-radius: 20 px;
   cursor: pointer;
   margin-top: auto;
 }
 
 .container-btn {
-  width: 100%;
+  width: 100 %;
   display: flex;
   justify-content: center;
-  margin-top: 50px;
-  padding-bottom: 20px;
+  margin-top: 50 px;
+  padding-bottom: 20 px;
 }
 
 .btn-second {
   background-color: #ffffff;
   color: #000000;
   font-family: 'montserrat', italic;
-  font-size: 12px;
+  font-size: 12 px;
   font-weight: bold;
   text-transform: uppercase;
   border: none;
-  padding: 8px 30px;
-  border-radius: 20px;
+  padding: 8 px 30 px;
+  border-radius: 20 px;
   cursor: pointer;
   margin: 0;
   display: block;
-  transition: transform 0.2s;
+  transition: transform 0.2 s;
 }
 
 .btn-second:hover {
-  transform: scale(1.05);
+  transform: scale (1.05);
 }
 
 .item img {
-    width: 300px;
-    height: 200px;
-    border-radius: 15px;
+    width: 300 px;
+    height: 200 px;
+    border-radius: 15 px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 25px;
+    padding-bottom: 25 px;
     object-fit: cover;
 } 
 
@@ -346,18 +346,18 @@ ul.nav-list li.nav-brand a img {
 
 .news-container {
     position: relative;
-    width: 100%;
-    min-height: 450px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    width: 100 %;
+    min-height: 450 px;
+    margin-top: 50 px;
+    margin-bottom: 50 px;
 }
 
 .news {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 4rem 4rem 4rem 0;
-    min-height: 350px;
+    padding: 4 rem 4 rem 4 rem 0;
+    min-height: 350 px;
     position: relative;
     z-index: 1;
     overflow: visible;
@@ -365,9 +365,9 @@ ul.nav-list li.nav-brand a img {
 
 .news-character-left {
     position: absolute;
-    left: -20px;
-    top: -10px;
-    height: 100%;
+    left: -20 px;
+    top: -10 px;
+    height: 100 %;
     width: auto;
     z-index: 2;
     object-fit: contain;
@@ -375,34 +375,34 @@ ul.nav-list li.nav-brand a img {
 }
 
 .news-gallery {
-    max-width: 50%;
+    max-width: 50 %;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
-    width: 100%;
+    gap: 1.5 rem;
+    width: 100 %;
     z-index: 3;
 }
 
 .news-item {
-  width: 100%;
+  width: 100 %;
 }
 
 .news-item a {
   display: block;
   font-family: 'montserrat', italic;
-  font-size: 16px;
+  font-size: 16 px;
   line-height: 1.4;
   color: #ffffff; 
   text-decoration: none;
-  padding: 20px 25px;
-  border-radius: 20px;
-  transition: transform 0.2s, filter 0.2s;
+  padding: 20 px 25 px;
+  border-radius: 20 px;
+  transition: transform 0.2 s, filter 0.2 s;
   cursor: pointer;
 }
 
 .news-item a:hover {
-  transform: translateX(5px);
-  filter: brightness(1.1);
+  transform: translateX (5 px);
+  filter: brightness (1.1);
 }
 
 .news-gallery > .news-item:nth-child(1) a { 
@@ -423,27 +423,27 @@ ul.nav-list li.nav-brand a img {
 } 
 .news-hr {
     color: transparent; 
-    border-left: 20px solid #785AA2;
-    border-radius: 5px;
+    border-left: 20 px solid #785AA2;
+    border-radius: 5 px;
 }
 .news-item {
-    padding: 1rem; 
+    padding: 1 rem; 
 } 
 
 .floating-sanji-right {
     position: absolute;
     right: 0;
-    top: 2390px;
-    height: 380px;
+    top: 2390 px;
+    height: 380 px;
     width: auto;
     z-index: 99;
     object-fit: contain;
     pointer-events: none;
-    transform: translateX(10px); 
+    transform: translateX (10 px); 
 }
 
 .characters, .fanarts {
-    padding: 1rem 1rem;
+    padding: 1 rem 1 rem;
 }
 
 .characters > button {
@@ -453,21 +453,21 @@ ul.nav-list li.nav-brand a img {
 
 .fanarts {
   background-color: #000000;
-  border-radius: 35px;
-  padding: 3rem 2rem;
-  margin: 3rem 4rem;
+  border-radius: 35 px;
+  padding: 3 rem 2 rem;
+  margin: 3 rem 4 rem;
   overflow: hidden;
   box-sizing: border-box;
 }
 
 .fanarts h2 {
   font-family: 'chunky playful', sans-serif;
-  font-size: 30px;
+  font-size: 30 px;
   color: #ffffff;
   text-transform: uppercase;
-  margin-top: 1rem;
-  margin-bottom: 3.5rem;
-  padding-left: 1rem;
+  margin-top: 1 rem;
+  margin-bottom: 3.5 rem;
+  padding-left: 1 rem;
 }
 
 .fanarts .gallery {
@@ -476,15 +476,15 @@ ul.nav-list li.nav-brand a img {
   flex-wrap: nowrap;
   justify-content: space-between;
   overflow-x: hidden;
-  gap: 1.5rem;
-  width: 100%;
+  gap: 1.5 rem;
+  width: 100 %;
   box-sizing: border-box;
 }
 
 .fanarts .gallery .item {
   flex-shrink: 1;
   flex-grow: 1;
-  max-width: 24%;
+  max-width: 24 %;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -492,68 +492,68 @@ ul.nav-list li.nav-brand a img {
 }
 
 .fanarts .gallery .item img {
-  width: 100%;
-  height: 240px;
+  width: 100 %;
+  height: 240 px;
   object-fit: cover;
-  border-radius: 40px;
+  border-radius: 40 px;
   display: block;
 }
 
-.fanarts .gallery .item:nth-child(4n+1) img { background-color: transparent; }
-.fanarts .gallery .item:nth-child(4n+2) img { background-color: transparent; }
-.fanarts .gallery .item:nth-child(4n+3) img { background-color: transparent; }
+.fanarts .gallery .item:nth-child(4 n+1) img { background-color: transparent; }
+.fanarts .gallery .item:nth-child(4 n+2) img { background-color: transparent; }
+.fanarts .gallery .item:nth-child(4 n+3) img { background-color: transparent; }
 .fanarts .gallery .item:nth-child(4n+4) img { background-color: transparent; } 
 
 .fanarts .gallery .item h3 {
   font-family: 'montserrat', italic;
-  font-size: 14px;
+  font-size: 14 px;
   color: #ffffff;
-  margin: 15px 0 0 0;
+  margin: 15 px 0 0 0;
   text-align: center;
-  width: 100%;
+  width: 100 %;
   line-height: 1.4;
 }
 
 .fanarts .gallery::-webkit-scrollbar {
-  height: 8px;
+  height: 8 px;
 }
 .fanarts .gallery::-webkit-scrollbar-thumb {
   background: #79579B;
-  border-radius: 10px;
+  border-radius: 10 px;
 }
 .fanarts .gallery::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba (255, 255, 255, 0.05);
 }
 
 .fanarts > .gallery, .blog > .gallery {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat (auto-fit, minmax (100 px, 1 fr));
 }
 
 .floating-nami-right {
     position: absolute;
     right: 0;
-    top: 3130px;
-    height: 320px;
+    top: 3130 px;
+    height: 320 px;
     width: auto;
     z-index: 99;
     object-fit: contain;
     pointer-events: none;
-    transform: translateX(-10px) !important; 
+    transform: translateX (-10 px); 
 }
 
 .characters h2 {
-    font-family: 'chunky playful', sans-serif;
-    font-size: 30px;
+    font-family: 'chunky-playful', sans-serif;
+    font-size: 30 px;
     color: #fff;
-    margin-bottom: 2rem;
+    margin-bottom: 2 rem;
     text-transform: uppercase;
 }
 
 .characters {
   background-color: #000000;
-  border-radius: 35px;
-  padding: 3rem 2rem;
-  margin: 3rem 4rem;
+  border-radius: 35 px;
+  padding: 3 rem 2 rem;
+  margin: 3 rem 4 rem;
   overflow: hidden;
   box-sizing: border-box;
 }
@@ -564,76 +564,75 @@ ul.nav-list li.nav-brand a img {
   flex-wrap: nowrap;
   justify-content: flex-start;
   overflow-x: auto;
-  gap: 2.5rem;
-  padding: 1.5rem 1rem;
+  gap: 2.5 rem;
+  padding: 1.5 rem 1 rem;
   width: auto;
-  margin: 0%;
+  margin: 0 %;
   box-sizing: border-box;
 }
 
 .characters .gallery .item {
   flex-shrink: 0;
-  width: 250px;
+  width: 250 px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background: transparent;
-  margin: 0%;
-}
+  margin: 0 %; 
 
 .characters .gallery .item img {
-  width: 100%;
-  height: 180px;
+  width: 100 %;
+  height: 180 px;
   object-fit: cover;
-  border-radius: 35px 35px 15px 15px;
+  border-radius: 35 px 35 px 15 px 15 px;
   display: block;
 }
 
-.characters .gallery .item:nth-child(3n+1) img { background-color: #ffffffa0 ; }
-.characters .gallery .item:nth-child(3n+2) img { background-color: #ffffffa0 ; }
-.characters .gallery .item:nth-child(3n+3) img { background-color: #ffffffa0; }
+.characters .gallery .item:nth-child(3 n+1) img { background-color: #ffffffa0 ; }
+.characters .gallery .item:nth-child(3 n+2) img { background-color: #ffffffa0 ; }
+.characters .gallery .item:nth-child(3 n+3) img { background-color: #ffffffa0; }
 
 .characters .gallery .item h3 {
-  font-family: 'chunky playful', sans-serif;
-  font-size: 25px;
+  font-family: 'chunky-playful', sans-serif;
+  font-size: 25 px;
   text-transform: uppercase;
-  margin: 15px 0 0 0;
+  margin: 15 px 0 0 0;
   text-align: center;
-  width: 100%;
+  width: 100 %;
   display: block;
 }
 
-.characters .gallery .item:nth-child(3n+1) h3 { color: #fff; } 
-.characters .gallery .item:nth-child(3n+2) h3 { color: #fff; } 
-.characters .gallery .item:nth-child(3n+3) h3 { color: #fff; }
+.characters .gallery .item:nth-child(3 n+1) h3 { color: #fff; } 
+.characters .gallery .item:nth-child(3 n+2) h3 { color: #fff; } 
+.characters .gallery .item:nth-child(3 n+3) h3 { color: #fff; }
 
 .characters .gallery::-webkit-scrollbar {
-  height: 8px;
+  height: 8 px;
 }
 .characters .gallery::-webkit-scrollbar-thumb {
   background: #79579B;
-  border-radius: 10px;
+  border-radius: 10 px;
 }
 .characters .gallery::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba (255, 255, 255, 0.05);
 }
 
 .blog {
   background-color: #000000;
-  border-radius: 35px;
-  padding: 3rem 2rem;
-  margin: 3rem 4rem;
+  border-radius: 35 px;
+  padding: 3 rem 2 rem;
+  margin: 3 rem 4 rem;
   overflow: hidden;
   box-sizing: border-box;
 }
 
 .blog h2 {
-  font-family: 'chunky playful', sans-serif;
-  font-size: 42px;
+  font-family: 'chunky-playful', sans-serif;
+  font-size: 42 px;
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 3 rem;
 }
 
 .blog-container {
@@ -641,58 +640,58 @@ ul.nav-list li.nav-brand a img {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  gap: 2rem;
-  width: 100%;
+  gap: 2 rem;
+  width: 100 %;
   box-sizing: border-box;
 }
 
 .blog-item {
   flex: 1;
-  max-width: 24%;
+  max-width: 24 %;
   display: flex;
   flex-direction: column;
   background: transparent;
 }
 
 .blog-img-box {
-  width: 100%;
-  height: 140px;
-  border-radius: 35px 35px 0 0;
+  width: 100 %;
+  height: 140 px;
+  border-radius: 35 px 35 px 0 0;
   overflow: hidden;
 }
 
 .blog-img-box img {
-  width: 100%;
-  height: 100%;
+  width: 100 %;
+  height: 100 %;
   object-fit: cover;
   display: block;
 }
 
-.blog-item:nth-child(3n+1) .blog-img-box { background-color: #ffffffaa; }
-.blog-item:nth-child(3n+2) .blog-img-box { background-color: #ffffffaa; }
-.blog-item:nth-child(3n+3) .blog-img-box { background-color: #ffffffaa; }
-.blog-item:nth-child(3n+4) .blog-img-box { background-color: #ffffffaa; }
+.blog-item:nth-child(3 n+1) .blog-img-box { background-color: #ffffffaa; }
+.blog-item:nth-child(3 n+2) .blog-img-box { background-color: #ffffffaa; }
+.blog-item:nth-child(3 n+3) .blog-img-box { background-color: #ffffffaa; }
+.blog-item:nth-child(3 n+4) .blog-img-box { background-color: #ffffffaa; }
 
 .blog-actions {
   display: flex;
   justify-content: flex-end;
-  gap: 10px;
-  padding: 10px 5px;
-  font-size: 20px;
+  gap: 10 px;
+  padding: 10 px 5 px;
+  font-size: 20 px;
 }
 
 .blog-comments {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 6 px;
   text-align: left;
-  padding: 5px;
-  min-height: 110px;
+  padding: 5 px;
+  min-height: 110 px;
 }
 
 .blog-comments p {
   font-family: Arial, sans-serif;
-  font-size: 11px;
+  font-size: 11 px;
   color: #ffffff;
   margin: 0;
   text-transform: uppercase;
@@ -702,9 +701,9 @@ ul.nav-list li.nav-brand a img {
   display: flex;
   align-items: center;
   background-color: #ffffff;
-  border-radius: 20px;
-  padding: 4px 10px;
-  margin-top: 15px;
+  border-radius: 20 px;
+  padding: 4 px 10 px;
+  margin-top: 15 px;
 }
 
 .blog-input-box input {
@@ -713,7 +712,7 @@ ul.nav-list li.nav-brand a img {
   border: none;
   outline: none;
   font-family: Arial, sans-serif;
-  font-size: 10px;
+  font-size: 10 px;
   font-weight: bold;
   color: #888888;
 }
@@ -723,14 +722,14 @@ ul.nav-list li.nav-brand a img {
   border: none;
   color: #888888;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 12 px;
 }
 
 footer {
     background-color: #000;
     color: #fff;
     text-align: center;
-    padding: 1rem;
+    padding: 1 rem;
     margin: 0; 
 }
 
@@ -744,7 +743,7 @@ footer > ul a {
   color: #ffffff;
   text-decoration: none;
   font-family: Arial, sans-serif;
-  font-size: 14px;
+  font-size: 14 px;
 }
 
 footer > ul a:hover {
@@ -760,21 +759,21 @@ footer {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 270px;
+    height: 270 px;
     width: auto;
     z-index: 10;
     object-fit: contain;
-    transform: translateX(-5px);
+    transform: translateX (-5 px);
     }
 
 .footer-zoro-right {
     position: absolute;
     right: 0;
     bottom: 0; 
-    height: 360PX;
+    height: 360 px;
 
     z-index: 10;
     object-fit: contain;
     pointer-events: none;
-    transform: translateX(90px)
+    transform: translateX (90 px)
 }
